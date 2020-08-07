@@ -1,1 +1,5 @@
-# hw-07-Good-README-Generator
+{
+	"name": "README",
+	"lNG": "KEKE",
+	"conect": []
+}
