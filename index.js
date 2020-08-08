@@ -48,7 +48,8 @@ inquirer.prompt([
         message:"Questions?",
     }
 ]).then(responce => {
-    let keke = responce.name.toLowerCase().split(' ').join('')+".md";
+    let keke ="README.md";
+    
     fs.writeFile(keke,JSON.stringify(responce,null,'\t'),error => {
         if(error){
             return console.log(error);
