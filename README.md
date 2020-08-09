@@ -1,10 +1,5 @@
-{
-	"Title": "#WEWE",
-	"Description": "*ewew",
-	"Table of Contents": "wew",
-	"Usage": "wewe",
-	"Installation": "ds",
-	"License": "dsd",
-	"Contributing": "sd",
-	"Tests": "sdsd",
-	"Questions": "sdsd"
+# keke
+write by: AmirAshkan7091kekekekek
+# kekek
+write by: fs.appendFile(README.md.process.argv[2]+‘\r\n’,function(error){if…..}
+like this yeah?

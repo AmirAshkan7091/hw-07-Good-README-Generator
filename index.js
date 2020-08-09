@@ -1,59 +1,76 @@
-const inquirer = require("inquirer");
 const fs = require("fs");
+const inquirer = require("inquirer");
+const questions = [
 
-inquirer.prompt([
     {
-        type: "input",
-        name:"Title",
-        message:"Title?",
+        type: 'input',
+        name: 'repoName',
+        message: 'What is main header?',
+     
     },
+
     {
-        type: "input",
-        name:"Description",
-        message:"Description?",
+        type: 'input',
+        name: 'gitHubName',
+        message: ' username  Github?',
+     
     },
+
     {
-        type: "input",
-        name:"Table of Contents",
-        message:"Table of Contents?",
+        type: 'input',
+        name: 'description',
+        message: 'description of application',
+     
     },
-    {
-        type: "input",
-        name:"Usage",
-        message:"Usage?",
-    },
-    {
-        type: "input",
-        name:"Installation",
-        message:"Installation?",
-    },
-    {
-        type: "input",
-        name:"License",
-        message:"License?",
-    },
-    {
-        type: "input",
-        name:"Contributing",
-        message:"Contributing?",
-    },
-    {
-        type: "input",
-        name:"Tests",
-        message:"Tests?",
-    },
-    {
-        type: "input",
-        name:"Questions",
-        message:"Questions?",
-    }
-]).then(responce => {
-    let keke ="README.md";
-    
-    fs.writeFile(keke,JSON.stringify(responce,null,'\t'),error => {
-        if(error){
-            return console.log(error);
+ 
+];
+
+function init() {
+inquirer.prompt(questions).then( (response) =>{
+
+
+    fs.appendFile("README.md", ("# " + response.repoName )+ '\n', function(err) { 
+
+        if (err) { 
+        console.log(err)
         }
-        console.log("Success!");
+        else {
+        console.log("Success")
+        }
+    
     })
+
+fs.appendFile("README.md", ("write by: " + response.gitHubName) + '\n', function(err) { 
+
+    if (err) { 
+    console.log(err)
+    }
+    else {
+    console.log("Success")
+    }
+
 })
+
+fs.appendFile("README.md", ( response.description ) + '\n', function(err) { 
+
+    if (err) { 
+    console.log(err)
+    }
+    else {
+    console.log("Success")
+    }
+
+})
+
+
+})
+}
+
+
+init();
+
+
+// console.log(response)
+// console.log(response.gitHubName)
+// console.log(response.repoName)
+// console.log(response.description)
