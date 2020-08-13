@@ -73,8 +73,9 @@ inquirer.prompt([
     const questions = response.questions;
     const github = response.github;
     const email = response.email;
-    const makeIT = `## ${title}
-    
+    const makeIT = 
+`## ${title}
+
 ${liscence}
     
 ## table of contents 

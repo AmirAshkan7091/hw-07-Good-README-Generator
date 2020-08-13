@@ -1,32 +1,29 @@
-## A Good README generator.
-    
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+## ## A Good README generator.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 ## table of contents 
-- [A Good README generator.](#a-good-readme-generator)
-- [table of contents](#table-of-contents)
-- [Description:](#description)
-- [Contribution:](#contribution)
-- [Questions?](#questions)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
+* [description](#Description)
+* [contribution](#Contribution)  
+* [insitillation](#Instillation)
+* [usage](#Usage)
+* [testing](#Testing)
 
 ## Description: 
 This is my README generator for my homework. Using Node.js I have created a README generator that creates a professional README based on user input generated from Inquirer prompts. 
     
     
 ## Contribution:
-all people can to look for it 
+all people can to look for it  
     
 ## Questions?
 * **Please check out:** ask me from following:
-* **Or you can reach to me on Github here:** [Github](https://github.com/https://github.com/AmirAshkan7091)
+* **Or you can reach to me on Github here:** [Github](https://github.com/https://github.com/https://github.com/AmirAshkan7091)
 * **Im also available via email here:** [Email me!](amirashsd@yahoo.com) 
 
 ## Installation 
     
-For instillation you will need to get this application from my Github and install  the Inquirer package with good knowleg of  Node.js. 
+For instillation you will need to get this application from my Github and install  the Inquirer package with good knowleg of  Node.js.  
     
 ## Usage 
     
