@@ -10,7 +10,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message: "What would you like to put into the description of your README?",
+        message: "What do you like to put into the description of your README?",
         name: "description"
       },
 
@@ -73,8 +73,9 @@ inquirer.prompt([
     const questions = response.questions;
     const github = response.github;
     const email = response.email;
-    const makeIT = 
-`## ${title}
+    
+    const makeIT =
+` ${title}
 
 ${liscence}
     
