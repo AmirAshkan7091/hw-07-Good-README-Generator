@@ -75,7 +75,7 @@ inquirer.prompt([
     const email = response.email;
     
     const makeIT =
-` ${title}
+` ##${title}
 
 ${liscence}
     
